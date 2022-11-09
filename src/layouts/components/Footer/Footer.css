@@ -1,0 +1,50 @@
+.footer{
+    position: fixed;
+    width: 100%;
+    padding-left: 150px;
+    bottom: 0;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    border-top: #DEDEDE 1px solid;
+    z-index: 1;
+    background-color: #fff;
+   justify-content: center;
+}
+
+.footer-inner{
+    color: #3E3E3E;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+width: 1250px;
+margin: auto;
+}
+
+@media screen  and (min-width:1080px) and (max-width:1350px) {
+    .footer{
+        height: 50px;
+    }
+
+    .footer-inner{
+    width: 900px;
+}
+}
+@media screen  and (min-width:768px) and (max-width:1079px){
+    .footer{
+        height: 50px;
+    }
+    .footer-inner{
+        width: 600px;
+}
+}
+@media screen  and (max-width:767px){
+    .footer{
+        height: 50px;
+        padding: 0;
+    }
+    .footer-inner{
+        width: 350px;
+        
+}
+}

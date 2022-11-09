@@ -1,0 +1,124 @@
+
+.container{
+    width: 100%;
+    flex-direction: column;
+    padding-left: 150px;
+    
+}
+.container-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.logo-img{
+    width: 210px;
+    object-fit: contain;
+}
+.icon{
+    font-size: 35px;
+    display: none;
+}
+.container-header{
+    width: 1250px;
+    margin-top: 30px;
+    padding: 38px;
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-header-tittle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.container-header-info{
+    padding: 0 120px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.content{
+    margin-top: 40px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+@media screen  and (min-width:1080px) and (max-width:1350px) {
+
+    .container-header{
+        width: 900px;
+    }
+    .content{
+        width: 900px;
+        margin-top: 20px;
+    }
+}
+@media screen  and (min-width:768px) and (max-width:1079px) {
+
+    .container-header{
+        width: 600px;
+    }
+    .container-header-tittle{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .container-header-info{
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .content{
+        width: 600px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+}
+@media screen  and (max-width:767px){
+    .container{
+        padding: 0;
+    }
+    .container-header{
+        width: 350px;
+        padding: 10px;
+    }
+    .container-header-info{
+        padding: 5px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .icon{display: block;}
+    .logo{
+        justify-content: space-around;
+        width: 350px;
+    }
+    .logo-img{
+        width: 100px;
+    }
+    .content{
+        width: 350px;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+}

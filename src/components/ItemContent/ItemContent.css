@@ -1,0 +1,43 @@
+.ItemContent{
+    width: 31%;
+}
+.content-tittle{
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.content-inner{
+    margin-top: 8px;
+}
+.content-img{
+    float: left;
+}
+
+.content-info{font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+
+@media screen  and (min-width:768px) and (max-width:1079px) {
+    .content-tittle{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .content-info{
+        font-size: 14px;
+    line-height: 16px;
+    }
+    .content-img{
+        width: 100px;
+    }
+}
+@media screen  and (max-width:767px){
+    .ItemContent{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
